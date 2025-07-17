@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+html{
+    background-color: #2A323F;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #2A323F;
+    background-color: #FDFDF1;
+    padding: 20px;
+}
+
+#ofalogo{
+    width: 5rem;
+    height: auto;
+    padding-right: 20px;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header ul li{
+    cursor: pointer;
+}
+
+#login{
+    border: solid #2A323F 2px;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#usericon{
+    width: 20px;
+    height: auto;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#000000b3, #000000b3),url(https://images.pexels.com/photos/356065/pexels-photo-356065.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.welcome{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    text-align: center;
+    padding: 7rem;
+    gap: 10px;
+}
+
+#welcometitle{
+    width:30rem;
+    height: auto;
+}
+
+footer{
+    background-color: black;
+    color: #FDFDF1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.contact ul{
+    list-style: none;
+}
+
+#menu img{
+   width: 30px;
+   height: auto;
+}
+
+#menu{
+    display: none;
+    cursor: pointer;
+}
+
+@media (width >= 0px) and (width <= 768px){
+    footer{
+        font-size: 10px;
+    }
+}
+
+@media (width >= 0px) and (width <= 642px) {
+    #options{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+    }
+
+    #welcometitle{
+        width: 20rem;
+        height: auto;
+    }
+
+    .welcome{
+        font-size: 12px;
+    }
+}
+
+@media (width >= 0px) and (width <= 515px){
+    footer{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+@media (width >= 1px) and (width <= 380px){
+        #welcometitle{
+        width: 15rem;
+        height: auto;
+    }
+
+    .welcome{
+        font-size: 10px;
+    }
+
+    #ofalogo{
+       width: 40px;
+       height: auto;
+    }
+}
