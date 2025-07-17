@@ -170,4 +170,6 @@ a{
     gap: 10px;
 }
 
-.dropdown:hover .content
+.dropdown:hover .content{
+    display: block
+}
