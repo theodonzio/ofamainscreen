@@ -147,3 +147,27 @@ footer{
        height: auto;
     }
 }
+
+a{
+    text-decoration: none;
+}
+
+.dropdown h4{
+    color: #2A323F;
+}
+
+.dropdown a{
+    display: block;
+    padding: 10px;
+}
+
+.dropdown .content{
+    position: absolute;
+    background-color: #FDFDF1;
+    box-shadow: #2A323F 0px 0px 10px 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dropdown:hover .content
